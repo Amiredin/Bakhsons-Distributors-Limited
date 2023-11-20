@@ -38,7 +38,7 @@ function OurProducts() {
   return (
     <section className="">
       <h1>Our Products</h1>
-      <div className=" lg:flex gap-5 lg:mt-10 lg:h-[300px]">
+      <div className=" lg:flex gap-5 lg:mt-10 lg:h-[300px] ">
         <div className=" lg:w-1/2 p-10">
           <h2 className=" text-[#4E8098] font-bold text-center mb-5 text-2xl">
             Beverages
@@ -53,7 +53,7 @@ function OurProducts() {
         </div>
         <Slider
           {...settings}
-          className=" bg-[#CED3DC]   lg:w-[65%] -skew-y-[2deg]"
+          className=" bg-[#CED3DC] lg:w-[65%]"
         >
           {beverageCarouselData.map(({ image, title }: BeverageType) => (
             <div
@@ -83,7 +83,7 @@ function OurProducts() {
         </div>
         <Slider
           {...settings2}
-          className=" bg-[#4E8098] p-5  lg:w-[60%] -skew-y-[2deg] mt-[0.90rem]"
+          className=" bg-[#4E8098] p-5  lg:w-[60%]"
         >
           {electronicCarouselData.map(({ image, title }: ElectronicsType) => (
             <div
@@ -101,7 +101,7 @@ function OurProducts() {
           ))}
         </Slider>
       </div>
-      <div className=" lg:flex gap-5 -mt-3.5 lg:h-[300px]">
+      <div className=" lg:flex gap-5 lg:h-[300px]">
         <div className=" lg:w-1/2 p-10">
           <h2 className=" text-[#4E8098] font-bold text-center mb-5 text-2xl">
             Confectionery
@@ -115,7 +115,7 @@ function OurProducts() {
         </div>
         <Slider
           {...settings}
-          className=" bg-[#CED3DC] p-5  lg:w-[60%] -skew-y-[2deg] mt0"
+          className=" bg-[#CED3DC] p-5  lg:w-[60%] mt0"
         >
           {confectioneryCarouselData.map(
             ({ image, title }: ConfectioneryType) => (

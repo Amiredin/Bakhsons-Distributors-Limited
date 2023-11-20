@@ -23,7 +23,8 @@ function TrustedBy() {
   return (
     <section className=" mt-20">
       <h1>Trusted By</h1>
-      <Slider {...settings} className="flex justify-around">
+      <Slider {...settings} className="flex justify-around w-full">
+
         <img
           src={galleria}
           alt="galleria"
