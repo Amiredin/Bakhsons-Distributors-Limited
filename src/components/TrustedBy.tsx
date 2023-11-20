@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import galleria from "../assets/galleria.png";
 import imara from "../assets/Imara.png";
-import trm from "../assets/trm.png";
+import trm from "../assets/Trm.png";
 import mountain from "../assets/mountain.png";
 import kenya from "../assets/kenya.png";
 
