@@ -3,7 +3,7 @@ import Carousel2 from "../assets/Carousel-2.png";
 import Carousel3 from "../assets/Carousel-3.png";
 import Carousel4 from "../assets/Carousel-4.png";
 import Azam from "../assets/AZAM-MAX2.png";
-import frame2 from "../assets/Frame-2.png";
+import frame2 from "../assets/frame-2.png";
 import frame3 from "../assets/frame-3.png";
 import frame4 from "../assets/frame-4.png";
 import frame5 from "../assets/frame-5.png";
